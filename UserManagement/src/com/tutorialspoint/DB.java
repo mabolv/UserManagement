@@ -6,7 +6,7 @@ import java.sql.SQLException;
 
 public class DB {
     private static Connection con;
-    private static String pass = "";
+    private static String pass = "calvin";
 
     public static Connection getConnection(){
         try {
